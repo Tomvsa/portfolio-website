@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import foxizecloud from "@/public/foxizecloud.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -62,17 +62,17 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Foxizecloud",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this startup project for 1 year. Is an LMS for managing and creating courses.",
+    tags: ["Php", "Symfony", "Mysql", "Bootstrap", "JS & JQuery"],
+    imageUrl: foxizecloud,
   },
   {
-    title: "rmtDev",
+    title: "Foxize params",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "I created an internal company application to document. The API (backend) was created with graphql and is connected to the frontend with react (NextJS).",
+    tags: ["NextJS", "TypeScript", "Symfony", "GraphQL", "Mysql"],
     imageUrl: rmtdevImg,
   },
   {
