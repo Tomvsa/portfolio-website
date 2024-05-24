@@ -1,10 +1,10 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+import { FaSymfony } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import foxizecloud from "@/public/foxizecloud.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import params from "@/public/params2.png";
+import starwardle from "@/public/starwardle.png";
 
 export const links = [
   {
@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Chemistry",
+    location: "UB, Barcelona",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "My introduction to the world of programming began during my time at the University of Barcelona, where I used Python to develop chemical applications.",
+    icon: React.createElement(FaPython),
+    date: "2019-2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "DAW",
+    location: "Stucom, Barcelona",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I graduated as a web developer with excellent grades.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022-2024",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Foxize, Barcelona",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked at foxize as a full-stack with Agile methodology, I was involved in several projects, and I created one of them.",
+    icon: React.createElement(FaSymfony),
+    date: "2023 - present",
   },
 ] as const;
 
@@ -65,22 +65,25 @@ export const projectsData = [
     title: "Foxizecloud",
     description:
       "I worked as a full-stack developer on this startup project for 1 year. Is an LMS for managing and creating courses.",
-    tags: ["Php", "Symfony", "Mysql", "Bootstrap", "JS & JQuery"],
+    tags: ["Php", "Symfony", "Mysql", "Bootstrap", "JS & JQuery", "Jira"],
     imageUrl: foxizecloud,
+    link: "https://www.foxizecloud.com/"
   },
   {
     title: "Foxize params",
     description:
       "I created an internal company application to document. The API (backend) was created with graphql and is connected to the frontend with react (NextJS).",
-    tags: ["NextJS", "TypeScript", "Symfony", "GraphQL", "Mysql"],
-    imageUrl: rmtdevImg,
+    tags: ["NextJS", "TypeScript", "Symfony", "GraphQL", "Apollo"],
+    imageUrl: params,
+    link: "https://www.foxizecloud.com/"
   },
   {
-    title: "Word Analytics",
+    title: "Starwardle",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Starwardle is a Node.js and Express based game that connects to the Starwardle API, allowing players to guess characters from the Star Wars universe.",
+    tags: ["Node.js", "Express", "CSS", "JS"],
+    imageUrl: starwardle,
+    link: "https://github.com/Tomvsa/Starwardle"
   },
 ] as const;
 
@@ -93,15 +96,14 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
+  "Mysql",
   "MongoDB",
-  "Redux",
   "GraphQL",
   "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Java",
+  "Laravel",
+  "Symfony",
+  "Jira",
+  "JWT"
 ] as const;
